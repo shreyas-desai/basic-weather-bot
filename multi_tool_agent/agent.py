@@ -2,7 +2,6 @@ from google.adk.agents import Agent
 
 from multi_tool_agent.tools import get_current_time, get_weather
 
-
 root_agent = Agent(
     name="weather_time_agent",
     model="gemini-2.0-flash",
